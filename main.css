@@ -203,6 +203,10 @@
     color: #0171A1;
     text-align: center;
   }
+
+  .project-item-pic-little {
+    padding-block: 12px;
+  }
   
   .project-list {
     display: flex;
@@ -296,6 +300,12 @@
     font-weight: 600;
     color: #fff;
     text-decoration-line: none;
+    transition: color 0.2s linear, background-color 0.2s linear;
+
+  }
+
+  .footer-link:hover {
+    color: #ffffcd;
   }
   
   .footer-address {
